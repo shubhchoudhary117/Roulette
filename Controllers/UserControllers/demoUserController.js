@@ -12,7 +12,7 @@ class demoUserController {
             let previousDemoId=demoUsers.length;
             let newDemoId=previousDemoId+1;
             // create Demouser Object
-            let newDemoUser=new demoUserModel({
+            let newDemoUser=new demouserModel({
                 Username:"Demouser"+newDemoId,
                 DemoId:newDemoId,
                 GameId:"Roulette@"
